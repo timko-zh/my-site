@@ -1,0 +1,14 @@
+---
+title: "My First Site"
+---
+
+## Introduction
+
+This is my first Quarto website.
+
+## A simple chart
+
+```{r}
+df <- data.frame(year = c(2020, 2021, 2022), value = c(3, 5, 4))
+plot(df$year, df$value, type = "l", xlab = "Year", ylab = "Value")
+```

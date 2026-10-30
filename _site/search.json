@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My First Site",
+    "section": "",
+    "text": "This is my first Quarto website."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "My First Site",
+    "section": "",
+    "text": "This is my first Quarto website."
+  },
+  {
+    "objectID": "index.html#a-simple-chart",
+    "href": "index.html#a-simple-chart",
+    "title": "My First Site",
+    "section": "A simple chart",
+    "text": "A simple chart\n\ndf &lt;- data.frame(year = c(2020, 2021, 2022), value = c(3, 5, 4))\nplot(df$year, df$value, type = \"l\", xlab = \"Year\", ylab = \"Value\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
