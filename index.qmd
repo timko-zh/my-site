@@ -8,7 +8,8 @@ This is my first Quarto website.
 
 ## A simple chart
 
-```{r}
+```{r, message=FALSE, echo=FALSE}
+library(plotly)
 df <- data.frame(year = c(2020, 2021, 2022), value = c(3, 5, 4))
-plot(df$year, df$value, type = "l", xlab = "Year", ylab = "Value")
+plot_ly(df, x = ~year, y = ~value, type = "scatter", mode = "lines")
 ```
